@@ -1,3 +1,4 @@
+
 # Q09. Functions with Default Parameters
 #
 # Write the following two functions:
@@ -17,15 +18,18 @@
 
 def greet(name, greeting="Hello"):
     # --- YOUR CODE HERE ---
-    pass
+    print(greeting + ", " + name + "!")
 
 
 def power(base, exp=2):
     # --- YOUR CODE HERE ---
-    pass
+    print(base ** exp)
 
 
 if __name__ == "__main__":
     # Call the functions and print results
     # --- YOUR CODE HERE ---
-    pass
+    greet("Alice")
+    greet("Bob", "Hi")
+    power(5)
+    power(2,10)
