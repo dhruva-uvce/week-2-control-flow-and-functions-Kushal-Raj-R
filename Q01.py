@@ -14,3 +14,17 @@
 # Sample Output:  Grade: B
 
 # --- YOUR CODE HERE ---
+score = int(input("Enter your score: "))
+if score > 89 and score < 101:
+  grade = "A"
+elif score > 79 and score < 90:
+  grade = "B"
+elif score > 69 and score < 80:
+  grade = "C"
+elif score > 59 and score < 70:
+  grade = "D"
+elif score < 60 and score >= 0:
+  grade = "F"
+else:
+  grade = "Invalid score"
+print("Grade:",grade)
