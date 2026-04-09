@@ -15,7 +15,7 @@
 
 # --- YOUR CODE HERE ---
 score = int(input("Enter your score: "))
-if score >= 90:
+if score >= 90 and score <= 100:
   print("Grade: A")
 elif score >= 80:
   print("Grade: B")
