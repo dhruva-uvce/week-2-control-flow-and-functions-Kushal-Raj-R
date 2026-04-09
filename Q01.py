@@ -16,14 +16,15 @@
 # --- YOUR CODE HERE ---
 score = int(input("Enter your score: "))
 if score > 89 and score < 101:
-  print("Grade: A")
+  grade = "A"
 elif score > 79:
-  print("Grade: B")
+  grade = "B"
 elif score > 69:
-  print("Grade: C")
+  grade = "C"
 elif score > 59:
-  print("Grade: D")
+  grade = "D"
 elif score < 60 and score > 0:
-  print("Grade: F")
+  grade = "F"
 else:
-  print("Invalid score")
+  grade = "Invalid score"
+print("Grade:",grade)
