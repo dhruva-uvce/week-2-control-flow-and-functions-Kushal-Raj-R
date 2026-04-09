@@ -23,7 +23,7 @@ elif score > 69 and score < 80:
   grade = "C"
 elif score > 59 and score < 70:
   grade = "D"
-elif score < 60 and score > 0:
+elif score < 60 and score >= 0:
   grade = "F"
 else:
   grade = "Invalid score"
